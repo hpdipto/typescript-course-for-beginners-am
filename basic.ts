@@ -4,6 +4,7 @@ function add(n1: number, n2: number, showResult: boolean, phrase: string) {
 	
 	if(showResult) {
 		console.log(phrase + result);
+		return;
 	}
 	else {
 		return result;
